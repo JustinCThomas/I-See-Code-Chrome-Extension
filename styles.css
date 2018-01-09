@@ -1,14 +1,14 @@
-/** {
+/* * {
   background-color: #0c0c0c !important;
   color: rgb(110, 240, 100) !important;
-}*/
+} */
 
 .code {
   background-color: #0c0c0c !important;
   color: rgb(110, 240, 100) !important;
 }
 
-.anchor {
+.code-anchor {
   background-color: #0c0c0c !important;
   color: rgb(128, 180, 0) !important;
 }
