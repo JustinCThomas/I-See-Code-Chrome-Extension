@@ -6,17 +6,19 @@
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "icon.png",
-   "default_popup": "popup.html"
+  "default_icon": "icon.png"
   },
   "permissions": [
-   "activeTab"
- ],
- "content_scripts": [
+    "activeTab"
+  ],
+  "background": {
+   "scripts": ["popup.js"],
+   "persistent": false
+  },
+  "content_scripts" : [
    {
      "matches": ["<all_urls>"],
-     "css": ["styles.css"],
-     "js": ["popup.js"]
+     "css": ["styles.css"]
    }
  ]
 }
